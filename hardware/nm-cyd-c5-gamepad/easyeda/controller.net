@@ -1,0 +1,2656 @@
+PROTEL NETLIST 2.0
+[
+DESIGNATOR
+U1
+FOOTPRINT
+SO-24_L15.6-W7.6-P1.27-LS10.6-BL
+PARTTYPE
+PCA9555D,112
+DESCRIPTION
+Interface:- Interrupt Output:- Output Type:- Features:Reset function；Cascading and address extension
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+PCA9555D,112
+Designator
+U1
+Device
+PCA9555D,112
+Unique ID
+gge1
+Name
+PCA9555D,112
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+NXP(恩智浦)
+Manufacturer Part
+PCA9555D,112
+Supplier
+LCSC
+Supplier Part
+C1542498
+LCSC Part Name
+16位I2C总线和SMBus带中断的I/O端口
+Supplier Footprint
+SO-24-300mil
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://www.nxp.com/docs/en/data-sheet/PCA9555.pdf
+Interface
+-
+Interrupt Output
+-
+Output Type
+-
+Features
+Reset function；Cascading and address extension
+Description
+Interface:- Interrupt Output:- Output Type:- Features:Reset function；Cascading and address extension
+3D Model Title
+SO-24_L15.6-W7.6-H2.6-LS10.6-P1.27
+
+*
+]
+[
+DESIGNATOR
+SW1
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW1
+Device
+B3F-1000
+Unique ID
+gge2
+Name
+UP
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+J1
+FOOTPRINT
+HDR-TH_4P-P2.54-V-M
+PARTTYPE
+PZ254V-11-04P
+DESCRIPTION
+Pin Structure:1x4P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Square pin Mounting Type:Through Hole Number of Rows:1 Number of Pins:4P Current Rating:3A Voltage Rating (Max):250V Length of Mating Pin:6.1mm Insulation Height:2.5mm Length of End C
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+PZ254V-11-04P_C2691448
+Designator
+J1
+Supplier
+LCSC
+Supplier Part
+C2691448
+Manufacturer
+XFCN(兴飞)
+Manufacturer Part
+PZ254V-11-04P
+JLCPCB Part Class
+Extended Part
+Device
+PZ254V-11-04P
+Unique ID
+gge3
+Name
+PZ254V-11-04P
+Reuse Block
+
+Group ID
+
+Channel ID
+
+LCSC Part Name
+1x4P 间距:2.54mm 方针 直插
+Supplier Footprint
+插件,P=2.54mm
+Datasheet
+https://item.szlcsc.com/datasheet/PZ254V-11-04P/2801085.html
+Pin Structure
+1x4P
+Pitch
+2.54mm
+Row Spacing
+-
+Circluar Pins/Square Pins
+Square pin
+Mounting Type
+Through Hole
+Number of Rows
+1
+Number of Pins
+4P
+Current Rating
+3A
+Voltage Rating (Max)
+250V
+Length of Mating Pin
+6.1mm
+Insulation Height
+2.5mm
+Length of End Connection Pin
+3mm
+Contact Material
+Brass
+Contact Plating
+Gold
+Operating Temperature
+-40℃~+105℃
+Color
+Black
+Description
+Pin Structure:1x4P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Square pin Mounting Type:Through Hole Number of Rows:1 Number of Pins:4P Current Rating:3A Voltage Rating (Max):250V Length of Mating Pin:6.1mm Insulation Height:2.5mm Length of End C
+3D Model Title
+HDR-TH_4P-P2.54-M-LI-1X4P
+
+*
+]
+[
+DESIGNATOR
+R1
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R1
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge4
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW2
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW2
+Device
+B3F-1000
+Unique ID
+gge5
+Name
+RIGHT
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R2
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R2
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge6
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW3
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW3
+Device
+B3F-1000
+Unique ID
+gge7
+Name
+DOWN
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R3
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R3
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge8
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW4
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW4
+Device
+B3F-1000
+Unique ID
+gge9
+Name
+LEFT
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R4
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R4
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge10
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW5
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW5
+Device
+B3F-1000
+Unique ID
+gge11
+Name
+SELECT
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R5
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R5
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge12
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW6
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW6
+Device
+B3F-1000
+Unique ID
+gge13
+Name
+START
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R6
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R6
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge14
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW7
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW7
+Device
+B3F-1000
+Unique ID
+gge15
+Name
+MENU
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R7
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R7
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge16
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW8
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW8
+Device
+B3F-1000
+Unique ID
+gge17
+Name
+OPTION
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R8
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R8
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge18
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW9
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW9
+Device
+B3F-1000
+Unique ID
+gge19
+Name
+A
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R9
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R9
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge20
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW10
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW10
+Device
+B3F-1000
+Unique ID
+gge21
+Name
+B
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R10
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R10
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge22
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW11
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW11
+Device
+B3F-1000
+Unique ID
+gge23
+Name
+X
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R11
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R11
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge24
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW12
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW12
+Device
+B3F-1000
+Unique ID
+gge25
+Name
+Y
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R12
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R12
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge26
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW13
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW13
+Device
+B3F-1000
+Unique ID
+gge27
+Name
+L
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R13
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R13
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge28
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+SW14
+FOOTPRINT
+KEY-TH_4P-L6.2-W6.2-P4.50-LS6.5
+PARTTYPE
+B3F-1000
+DESCRIPTION
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B3F-1000
+Designator
+SW14
+Device
+B3F-1000
+Unique ID
+gge29
+Name
+R
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+OMRON(欧姆龙)
+Manufacturer Part
+B3F-1000
+Supplier
+LCSC
+Supplier Part
+C93157
+LCSC Part Name
+6mm*6mm*4.3mm 24V 50mA
+Supplier Footprint
+插件-4P,6x6mm
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/B3F-1000/94352.html
+Circuit
+SPST-NO
+Actuator Style
+Round Button
+Operating Force
+1N
+Mounting Type
+Through Hole
+Length
+6mm
+Width
+6mm
+Switch Height
+4.3mm
+Contact Current
+50mA
+Voltage Rating
+24V
+With Lamp
+-
+Termination Style
+PC Pin
+Life
+1,000,000 cycles
+Operating Temperature
+-25℃~+70℃
+Description
+Circuit:SPST-NO Actuator Style:Round Button Operating Force:1N Mounting Type:Through Hole Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:24V With Lamp:- Termination Style:PC Pin Life:1,000,000 cycles Operating Temperature:-25
+3D Model Title
+KEY-TH_4P-L6.0-W6.0-H4.3-LS7.5-P4.5
+
+*
+]
+[
+DESIGNATOR
+R14
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+R14
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge30
+Name
+10k
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+C1
+FOOTPRINT
+C0603
+PARTTYPE
+CC0603KRX7R9BB104
+DESCRIPTION
+Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Name
+100nF
+Designator
+C1
+Symbol
+CC0603KRX7R9BB104
+Device
+CC0603KRX7R9BB104
+Unique ID
+gge31
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+YAGEO(国巨)
+Manufacturer Part
+CC0603KRX7R9BB104
+Supplier
+LCSC
+Supplier Part
+C14663
+LCSC Part Name
+100nF ±10% 50V
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html
+Value
+100nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Description
+Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+
+*
+]
+[
+DESIGNATOR
+C2
+FOOTPRINT
+C0603
+PARTTYPE
+CC0603KRX7R9BB104
+DESCRIPTION
+Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Name
+100nF
+Designator
+C2
+Symbol
+CC0603KRX7R9BB104
+Device
+CC0603KRX7R9BB104
+Unique ID
+gge32
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+YAGEO(国巨)
+Manufacturer Part
+CC0603KRX7R9BB104
+Supplier
+LCSC
+Supplier Part
+C14663
+LCSC Part Name
+100nF ±10% 50V
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html
+Value
+100nF
+Tolerance
+±10%
+Voltage Rating
+50V
+Temperature Coefficient
+X7R
+Description
+Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+
+*
+]
+[
+DESIGNATOR
+R15
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+no
+Convert to PCB
+yes
+Designator
+R15
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge33
+Name
+10k DNP
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Assembly
+DNP
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+R16
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1002T5E
+DESCRIPTION
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Component Kind
+Standard
+Add into BOM
+no
+Convert to PCB
+yes
+Designator
+R16
+Symbol
+0603WAF1002T5E
+Device
+0603WAF1002T5E
+Unique ID
+gge34
+Name
+10k DNP
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1002T5E
+Supplier
+LCSC
+Supplier Part
+C25804
+LCSC Part Name
+厚膜电阻 10kΩ ±1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1002T5E/26547.html
+Type
+Thick Film Resistor
+Value
+10kΩ
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):75V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃
+Assembly
+DNP
+3D Model Title
+R0603
+
+*
+]
+(
+GND 
+U1-2 PCA9555D,112-A1 Passive 
+U1-3 PCA9555D,112-A2 Passive 
+U1-12 PCA9555D,112-VSS Passive 
+U1-21 PCA9555D,112-A0 Passive 
+SW1-4 B3F-1000-4 Passive 
+SW1-3 B3F-1000-3 Passive 
+J1-4 PZ254V-11-04P-4 Input   
+SW2-4 B3F-1000-4 Passive 
+SW2-3 B3F-1000-3 Passive 
+SW3-4 B3F-1000-4 Passive 
+SW3-3 B3F-1000-3 Passive 
+SW4-4 B3F-1000-4 Passive 
+SW4-3 B3F-1000-3 Passive 
+SW5-4 B3F-1000-4 Passive 
+SW5-3 B3F-1000-3 Passive 
+SW6-4 B3F-1000-4 Passive 
+SW6-3 B3F-1000-3 Passive 
+SW7-4 B3F-1000-4 Passive 
+SW7-3 B3F-1000-3 Passive 
+SW8-4 B3F-1000-4 Passive 
+SW8-3 B3F-1000-3 Passive 
+SW9-4 B3F-1000-4 Passive 
+SW9-3 B3F-1000-3 Passive 
+SW10-4 B3F-1000-4 Passive 
+SW10-3 B3F-1000-3 Passive 
+SW11-4 B3F-1000-4 Passive 
+SW11-3 B3F-1000-3 Passive 
+SW12-4 B3F-1000-4 Passive 
+SW12-3 B3F-1000-3 Passive 
+SW13-4 B3F-1000-4 Passive 
+SW13-3 B3F-1000-3 Passive 
+SW14-4 B3F-1000-4 Passive 
+SW14-3 B3F-1000-3 Passive 
+C1-1 CC0603KRX7R9BB104-1 Passive 
+C2-1 CC0603KRX7R9BB104-1 Passive 
+)
+(
+BTN_UP 
+U1-4 PCA9555D,112-IO0_0 Passive 
+SW1-2 B3F-1000-2 Passive 
+SW1-1 B3F-1000-1 Passive 
+R1-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_RIGHT 
+U1-5 PCA9555D,112-IO0_1 Passive 
+SW2-2 B3F-1000-2 Passive 
+SW2-1 B3F-1000-1 Passive 
+R2-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_DOWN 
+U1-6 PCA9555D,112-IO0_2 Passive 
+SW3-2 B3F-1000-2 Passive 
+SW3-1 B3F-1000-1 Passive 
+R3-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_LEFT 
+U1-7 PCA9555D,112-IO0_3 Passive 
+SW4-2 B3F-1000-2 Passive 
+SW4-1 B3F-1000-1 Passive 
+R4-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_SELECT 
+U1-8 PCA9555D,112-IO0_4 Passive 
+SW5-2 B3F-1000-2 Passive 
+SW5-1 B3F-1000-1 Passive 
+R5-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_START 
+U1-9 PCA9555D,112-IO0_5 Passive 
+SW6-2 B3F-1000-2 Passive 
+SW6-1 B3F-1000-1 Passive 
+R6-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_MENU 
+U1-10 PCA9555D,112-IO0_6 Passive 
+SW7-2 B3F-1000-2 Passive 
+SW7-1 B3F-1000-1 Passive 
+R7-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_OPTION 
+U1-11 PCA9555D,112-IO0_7 Passive 
+SW8-2 B3F-1000-2 Passive 
+SW8-1 B3F-1000-1 Passive 
+R8-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_A 
+U1-13 PCA9555D,112-IO1_0 Passive 
+SW9-2 B3F-1000-2 Passive 
+SW9-1 B3F-1000-1 Passive 
+R9-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_B 
+U1-14 PCA9555D,112-IO1_1 Passive 
+SW10-2 B3F-1000-2 Passive 
+SW10-1 B3F-1000-1 Passive 
+R10-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_X 
+U1-15 PCA9555D,112-IO1_2 Passive 
+SW11-2 B3F-1000-2 Passive 
+SW11-1 B3F-1000-1 Passive 
+R11-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_Y 
+U1-16 PCA9555D,112-IO1_3 Passive 
+SW12-2 B3F-1000-2 Passive 
+SW12-1 B3F-1000-1 Passive 
+R12-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_L 
+U1-17 PCA9555D,112-IO1_4 Passive 
+SW13-2 B3F-1000-2 Passive 
+SW13-1 B3F-1000-1 Passive 
+R13-1 0603WAF1002T5E-1 Input   
+)
+(
+BTN_R 
+U1-18 PCA9555D,112-IO1_5 Passive 
+SW14-2 B3F-1000-2 Passive 
+SW14-1 B3F-1000-1 Passive 
+R14-1 0603WAF1002T5E-1 Input   
+)
+(
+SCL 
+U1-22 PCA9555D,112-SCL Passive 
+J1-3 PZ254V-11-04P-3 Input   
+R16-1 0603WAF1002T5E-1 Input   
+)
+(
+SDA 
+U1-23 PCA9555D,112-SDA Passive 
+J1-2 PZ254V-11-04P-2 Input   
+R15-1 0603WAF1002T5E-1 Input   
+)
+(
++3V3 
+U1-24 PCA9555D,112-VDD Passive 
+J1-1 PZ254V-11-04P-1 Input   
+R1-2 0603WAF1002T5E-2 Input   
+R2-2 0603WAF1002T5E-2 Input   
+R3-2 0603WAF1002T5E-2 Input   
+R4-2 0603WAF1002T5E-2 Input   
+R5-2 0603WAF1002T5E-2 Input   
+R6-2 0603WAF1002T5E-2 Input   
+R7-2 0603WAF1002T5E-2 Input   
+R8-2 0603WAF1002T5E-2 Input   
+R9-2 0603WAF1002T5E-2 Input   
+R10-2 0603WAF1002T5E-2 Input   
+R11-2 0603WAF1002T5E-2 Input   
+R12-2 0603WAF1002T5E-2 Input   
+R13-2 0603WAF1002T5E-2 Input   
+R14-2 0603WAF1002T5E-2 Input   
+C1-2 CC0603KRX7R9BB104-2 Passive 
+C2-2 CC0603KRX7R9BB104-2 Passive 
+R15-2 0603WAF1002T5E-2 Input   
+R16-2 0603WAF1002T5E-2 Input   
+)

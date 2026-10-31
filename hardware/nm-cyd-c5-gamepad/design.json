@@ -1,0 +1,165 @@
+{
+  "buttons": [
+    {
+      "ref": "SW1",
+      "net": "BTN_UP",
+      "button": "UP",
+      "bit": 0,
+      "u1_pin": 4,
+      "pcb_mm": [
+        24,
+        24
+      ]
+    },
+    {
+      "ref": "SW2",
+      "net": "BTN_RIGHT",
+      "button": "RIGHT",
+      "bit": 1,
+      "u1_pin": 5,
+      "pcb_mm": [
+        36,
+        36
+      ]
+    },
+    {
+      "ref": "SW3",
+      "net": "BTN_DOWN",
+      "button": "DOWN",
+      "bit": 2,
+      "u1_pin": 6,
+      "pcb_mm": [
+        24,
+        48
+      ]
+    },
+    {
+      "ref": "SW4",
+      "net": "BTN_LEFT",
+      "button": "LEFT",
+      "bit": 3,
+      "u1_pin": 7,
+      "pcb_mm": [
+        12,
+        36
+      ]
+    },
+    {
+      "ref": "SW5",
+      "net": "BTN_SELECT",
+      "button": "SELECT",
+      "bit": 4,
+      "u1_pin": 8,
+      "pcb_mm": [
+        42,
+        58
+      ]
+    },
+    {
+      "ref": "SW6",
+      "net": "BTN_START",
+      "button": "START",
+      "bit": 5,
+      "u1_pin": 9,
+      "pcb_mm": [
+        58,
+        58
+      ]
+    },
+    {
+      "ref": "SW7",
+      "net": "BTN_MENU",
+      "button": "MENU",
+      "bit": 6,
+      "u1_pin": 10,
+      "pcb_mm": [
+        43,
+        14
+      ]
+    },
+    {
+      "ref": "SW8",
+      "net": "BTN_OPTION",
+      "button": "OPTION",
+      "bit": 7,
+      "u1_pin": 11,
+      "pcb_mm": [
+        57,
+        14
+      ]
+    },
+    {
+      "ref": "SW9",
+      "net": "BTN_A",
+      "button": "A",
+      "bit": 8,
+      "u1_pin": 13,
+      "pcb_mm": [
+        88,
+        36
+      ]
+    },
+    {
+      "ref": "SW10",
+      "net": "BTN_B",
+      "button": "B",
+      "bit": 9,
+      "u1_pin": 14,
+      "pcb_mm": [
+        76,
+        48
+      ]
+    },
+    {
+      "ref": "SW11",
+      "net": "BTN_X",
+      "button": "X",
+      "bit": 10,
+      "u1_pin": 15,
+      "pcb_mm": [
+        76,
+        24
+      ]
+    },
+    {
+      "ref": "SW12",
+      "net": "BTN_Y",
+      "button": "Y",
+      "bit": 11,
+      "u1_pin": 16,
+      "pcb_mm": [
+        64,
+        36
+      ]
+    },
+    {
+      "ref": "SW13",
+      "net": "BTN_L",
+      "button": "L",
+      "bit": 12,
+      "u1_pin": 17,
+      "pcb_mm": [
+        18,
+        10
+      ]
+    },
+    {
+      "ref": "SW14",
+      "net": "BTN_R",
+      "button": "R",
+      "bit": 13,
+      "u1_pin": 18,
+      "pcb_mm": [
+        82,
+        10
+      ]
+    }
+  ],
+  "board_mm": [
+    100,
+    70
+  ],
+  "page": "21c6ff98e9d05acd",
+  "pcb": "7f423eabe62144d5",
+  "corner_radius_mm": 4
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-30",
+  "cad_tool": "EasyEDA 3.2.209",
+  "strict_drc_passed": true,
+  "drc_errors": 0,
+  "nets": 18,
+  "connected_pins": 117,
+  "components_including_dnp": 34,
+  "populated_components": 32,
+  "copper_track_segments": 277,
+  "min_track_width_mm": 0.254,
+  "vias": 18,
+  "outline_mm": [
+    100,
+    70
+  ],
+  "corner_radius_mm": 7.0,
+  "outline_style": "SNES-style dog bone with scooped waist",
+  "top_scoop_depth_mm": 3.0,
+  "bottom_scoop_depth_mm": 8.2,
+  "min_copper_edge_clearance_mm": 0.567,
+  "min_mounting_hole_edge_clearance_mm": 1.16,
+  "pth_drills_by_diameter_mm": {
+    "0.305": 18,
+    "1.1": 60
+  },
+  "npth_drills_by_diameter_mm": {
+    "3.2": 4
+  },
+  "schematic_and_pcb_match": true,
+  "archive_contains_footprints_and_symbols": true,
+  "hardware_tested": false,
+  "host_connector_mechanical_fit_verified": false,
+  "firmware": {
+    "checked": false
+  },
+  "sha256": {
+    "easyeda/NM-CYD-C5-Gamepad-RevA.epro2": "2d90dc88fec11e1173203254807f44fff7a0e2fd295075d571bf4f1bb8282249",
+    "manufacturing/NM-CYD-C5-Gamepad-RevA-Gerbers.zip": "8f6ae4fee66b8757188369c459b25882d127e22b3dee7f7c8ae675ae023a660c"
+  }
+}

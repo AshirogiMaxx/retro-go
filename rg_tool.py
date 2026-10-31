@@ -49,17 +49,20 @@ if not IDF_PATH:
 
 if os.name == 'nt':
     IDF_PY = os.path.join(IDF_PATH, "tools", "idf.py")
-    IDF_MONITOR_PY = os.path.join(IDF_PATH, "tools", "idf_monitor.py")
     ESPTOOL_PY = os.path.join(IDF_PATH, "components", "esptool_py", "esptool", "esptool.py")
     PARTTOOL_PY = os.path.join(IDF_PATH, "components", "partition_table", "parttool.py")
     GEN_ESP32PART_PY = os.path.join(IDF_PATH, "components", "partition_table", "gen_esp32part.py")
 else:
     IDF_PY = "idf.py"
-    IDF_MONITOR_PY = "idf_monitor.py"
     ESPTOOL_PY = "esptool.py"
     PARTTOOL_PY = "parttool.py"
     GEN_ESP32PART_PY = "gen_esp32part.py"
 MKFW_PY = os.path.join("tools", "mkfw.py")
+# Recent ESP-IDF versions install the monitor as a Python module instead of
+# exposing idf_monitor.py on PATH. Keep older SDK installations working too.
+_monitor_script = os.path.join(IDF_PATH, "tools", "idf_monitor.py")
+IDF_MONITOR_CMD = ([sys.executable, _monitor_script] if os.path.isfile(_monitor_script)
+                   else [sys.executable, "-m", "esp_idf_monitor"])
 
 
 def run(cmd, cwd=None, check=True):
@@ -131,10 +134,11 @@ def flash_app(app, port, baudrate=1152000):
     os.putenv("ESPTOOL_CHIP", IDF_TARGET)
     os.putenv("ESPTOOL_BAUD", str(baudrate))
     os.putenv("ESPTOOL_PORT", port)
-    if not os.path.exists("partitions.bin"):
-        print("Reading device's partition table...")
-        run([ESPTOOL_PY, "read_flash", "0x8000", "0x1000", "partitions.bin"], check=False)
-        run([GEN_ESP32PART_PY, "partitions.bin"], check=False)
+    # A full install (or another board) may have a different app layout. Always
+    # read it from the connected device; never flash using a stale cached table.
+    print("Reading device's partition table...")
+    run([ESPTOOL_PY, "read_flash", "0x8000", "0x1000", "partitions.bin"])
+    run([GEN_ESP32PART_PY, "partitions.bin"])
     app_bin = os.path.join(app, "build", app + ".bin")
     print(f"Flashing '{app_bin}' to port {port}")
     run([PARTTOOL_PY, "--partition-table-file", "partitions.bin", "write_partition", "--partition-name", app, "--input", app_bin])
@@ -154,9 +158,9 @@ def monitor_app(app, port, baudrate=115200):
     print(f"Starting monitor for app {app} on port {port}")
     elf_file = os.path.join(os.getcwd(), app, "build", app + ".elf")
     if os.path.exists(elf_file):
-        run([IDF_MONITOR_PY, "--port", port, elf_file])
+        run(IDF_MONITOR_CMD + ["--port", port, elf_file])
     else: # We must pass a file to idf_monitor.py but it doesn't have to be valid with -d
-        run([IDF_MONITOR_PY, "--port", port, "-d", sys.argv[0]])
+        run(IDF_MONITOR_CMD + ["--port", port, "-d", sys.argv[0]])
 
 
 parser = argparse.ArgumentParser(description="Retro-Go build tool")

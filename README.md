@@ -42,6 +42,10 @@ optimized to reduce their cpu, memory, and flash needs without reducing compatib
 
 # Installation
 
+### NM-CYD-C5
+
+See the [setup, build, flash, and GPIO26 speaker guide](docs/NM-CYD-C5.md). This target uses ESP-IDF 5.5.3 and provides ST7789 display, XPT2046 touch controls, microSD storage, and PWM audio to the on-board amplifier through GPIO26/SPEAK_IN.
+
 ### ODROID-GO
   1. Download `retro-go_1.x_odroid-go.fw` from the [release page](https://github.com/ducalex/retro-go/releases/) and copy it to `/odroid/firmware` on your sdcard.
   2. Power up the device while holding down B.

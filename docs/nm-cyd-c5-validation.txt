@@ -1,0 +1,18 @@
+NM-CYD-C5 validation — 29 October 2026
+ESP-IDF v5.5.3; ESP32-C5 revision 1.0; 16 MB flash / 8 MB PSRAM
+Flash 40 MHz DIO; PSRAM 80 MHz; PWM GPIO26 150 kHz, 8-bit; GPTimer sample pacing
+Image: retro-go_1.46-8-g4ced1-dirty_nm-cyd-c5.img
+Size: 7930112 bytes
+SHA-256: 4d8a3d6e491618d61533c28c0ab257caa6dffa9781f7c33ef849ed64d2dc27c1
+Image CRC and all five embedded application payloads verified.
+launcher: offset 0x010000, partition 1572864 bytes, app 1098560 bytes
+retro-core: offset 0x190000, partition 1572864 bytes, app 1068384 bytes
+prboom-go: offset 0x310000, partition 1572864 bytes, app 878128 bytes
+gwenesis: offset 0x490000, partition 1572864 bytes, app 1055920 bytes
+fmsx: offset 0x610000, partition 1572864 bytes, app 682800 bytes
+Full serial flash succeeded and the device verified its hash.
+Final boot: SD mounted, display and XPT2046 initialized, PWM Speaker at 32000 Hz, Retro-Go ready; no panic.
+Host regression checks: image layout/CRC, PWM ISR/buffer behavior, fresh flash partition table and failure handling.
+User confirmed working display/touch and an audible Test sound tone.
+Individual-game behavior and 22050 Hz audio quality need normal play testing.
+Original 16 MB firmware backup: ~/esp/backups/nm-cyd-c5-20261029/original-flash.bin

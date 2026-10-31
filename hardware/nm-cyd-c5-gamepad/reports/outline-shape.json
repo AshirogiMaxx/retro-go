@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-30",
+  "changed_cad_object": "Board outline only (layer 11)",
+  "style": "SNES-style dog bone: full-height rounded wings with a scooped waist",
+  "board_dimensions_mm": [100, 70],
+  "corner_radius_mm": 7,
+  "segments": {
+    "lines": 8,
+    "arcs": 12,
+    "arc_radii_mm": {
+      "corner": 7,
+      "bottom_shoulder": 18.18,
+      "top_shoulder": 24.83
+    }
+  },
+  "waist": {
+    "top_scoop_depth_mm": 3,
+    "bottom_scoop_depth_mm": 8.2,
+    "height_at_centre_mm": 58.8,
+    "height_at_wings_mm": 70,
+    "scoop_x_range_mm": [28, 72]
+  },
+  "clearances": {
+    "min_copper_to_board_edge_mm": 0.567,
+    "limiting_copper": "+3V3 track from J1 pin 1",
+    "min_mounting_hole_to_board_edge_mm": 1.16,
+    "previous_mounting_hole_clearance_mm": 2.4,
+    "note": "7 mm corner radii are the largest that keep the 3.2 mm mounting holes 4 mm from each corner fully on the board; 4 mm corners gave 2.4 mm of web."
+  },
+  "copper_silkscreen_solder_mask_and_drill_geometry_unchanged": true,
+  "component_positions_and_net_assignments_unchanged": true,
+  "schematic_unchanged": true,
+  "strict_drc_passed": true,
+  "drc_errors": 0
+}

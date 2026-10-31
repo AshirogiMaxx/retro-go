@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-30",
+  "source": "manufacturing/assembly/source/easyeda-native-pickplace.tsv",
+  "native_centroids_and_rotations_match_cad": true,
+  "cpl_and_bom_reference_sets_match": true,
+  "populated_components": 32,
+  "unique_part_types": 5,
+  "smt_components": 17,
+  "through_hole_components": 15,
+  "excluded_dnp": [
+    "R15",
+    "R16"
+  ],
+  "assembly_side": "Top",
+  "coordinate_frame": "Same as Gerbers: origin at upper left, X right, Y up; board Y spans -70 to 0 mm",
+  "rotation_convention": "Native EasyEDA footprint angle, positive counterclockwise",
+  "u1_rotation_deg": 270,
+  "u1_pin1_mm": [
+    44.92,
+    -29.015
+  ],
+  "u1_expected_orientation": "Notch toward cable header; pin 1 at upper-left in top view",
+  "assembly_gerber_zip": "manufacturing/assembly/JLCPCB-NM-CYD-C5-RevA-R4-PCBA-Gerbers.zip",
+  "bare_board_layers_byte_identical": true,
+  "paste_openings": 56,
+  "native_paste_openings": 60,
+  "dnp_paste_openings_removed": [
+    "R15.1",
+    "R15.2",
+    "R16.1",
+    "R16.2"
+  ],
+  "paste_openings_match_fitted_smt_pads": true,
+  "maximum_native_paste_center_to_pad_offset_mm": 0.042395,
+  "jlcpcb_placement_preview_reviewed": false,
+  "parts_stock_reserved": false,
+  "sha256": {
+    "manufacturing/assembly/source/easyeda-native-pickplace.tsv": "0bf61aba79e53e96667af6c3f7e6a3b12c13bab1201381244a27e5bf08d7b3c5",
+    "manufacturing/assembly/source/easyeda-native-top-paste.GTP": "2375a813ceeb35306c83ee3c0377c7f6d0d703e1d1d569d9274d47fc1267789d",
+    "manufacturing/assembly/JLCPCB-NM-CYD-C5-RevA-R4-CPL.csv": "6e5d43147ba24a292a54a35e5bd1873e176788684fbb80489b8498d1dc23918a",
+    "manufacturing/assembly/JLCPCB-NM-CYD-C5-RevA-R4-BOM.csv": "b5dc29224e2de87284ba9543dde0ccfcea2a8a8a27f4ff05fd569b0b5b0a4394",
+    "manufacturing/JLCPCB-NM-CYD-C5-Gamepad-RevA-R4.zip": "bda328608e5a1afafab365065f380652c0a7518e76c8e84874ebb8bd1c72a1df",
+    "manufacturing/assembly/JLCPCB-NM-CYD-C5-RevA-R4-PCBA-Gerbers.zip": "8f3e75e9597a5476c4fa058cf0c9430aad80f9d20a055aec2a2b5b6e1582cf9f"
+  }
+}

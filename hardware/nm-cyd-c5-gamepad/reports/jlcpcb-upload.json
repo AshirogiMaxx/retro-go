@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-30",
+  "purpose": "Bare PCB quotation upload to JLCPCB",
+  "upload_file": "JLCPCB-NM-CYD-C5-Gamepad-RevA-R4.zip",
+  "sha256": "bda328608e5a1afafab365065f380652c0a7518e76c8e84874ebb8bd1c72a1df",
+  "bytes": 17537,
+  "archive_integrity_passed": true,
+  "files": [
+    "Gerber_TopLayer.GTL",
+    "Gerber_BottomLayer.GBL",
+    "Gerber_TopSilkscreenLayer.GTO",
+    "Gerber_BottomSilkscreenLayer.GBO",
+    "Gerber_TopSolderMaskLayer.GTS",
+    "Gerber_BottomSolderMaskLayer.GBS",
+    "Gerber_BoardOutlineLayer.GKO",
+    "Drill_PTH_Through.DRL",
+    "Drill_NPTH_Through.DRL"
+  ],
+  "outline_mm": [
+    100,
+    70
+  ],
+  "corner_radius_mm": 4,
+  "layers": 2,
+  "local_design_checks_passed": true,
+  "uploaded_to_jlcpcb": false,
+  "suggested_quote_settings": {
+    "material": "FR-4",
+    "quantity": 5,
+    "thickness_mm": 1.6,
+    "outer_copper_oz": 1,
+    "solder_mask": "Green",
+    "silkscreen": "White",
+    "surface_finish": "LeadFree HASL",
+    "different_designs": 1,
+    "delivery_format": "Single PCB",
+    "assembly": false
+  }
+}

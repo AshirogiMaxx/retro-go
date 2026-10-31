@@ -1,0 +1,101 @@
+launcheESP-ROM:esp32c5-eco2-20250121
+Build:JaESP-ROM:esp32c5-eco2-20250121
+Build:Jan 21 2025
+rst:0x15 (USB_UART_HPSYS),boot:0x3c (SPI_FAST_FLASH_BOOT)
+SPI mode:DIO, clock div:2
+load:0x408556b0,len:0x1138
+load:0x4084bba0,len:0xdc0
+load:0x4084e5a0,len:0x3000
+entry 0x4084bbaa
+I (21) boot: ESP-IDF v5.5.3 2nd stage bootloader
+I (21) boot: compile time Oct 29 2026 13:22:04
+I (22) boot: chip revision: v1.0
+I (22) boot: efuse block revision: v0.3
+I (24) boot.esp32c5: SPI Speed      : 40MHz
+I (28) boot.esp32c5: SPI Mode       : DIO
+I (32) boot.esp32c5: SPI Flash Size : 16MB
+I (36) boot: Enabling RNG early entropy source...
+I (40) boot: Partition Table:
+I (43) boot: ## Label            Usage          Type ST Offset   Length
+I (49) boot:  0 nvs              WiFi data        01 02 00009000 00004000
+I (56) boot:  1 otadata          OTA data         01 00 0000d000 00002000
+I (62) boot:  2 phy_init         RF data          01 01 0000f000 00001000
+I (69) boot:  3 launcher         OTA app          00 10 00010000 00180000
+I (75) boot:  4 retro-core       OTA app          00 11 00190000 00180000
+I (82) boot:  5 prboom-go        OTA app          00 12 00310000 00180000
+I (88) boot:  6 gwenesis         OTA app          00 13 00490000 00180000
+I (95) boot:  7 fmsx             OTA app          00 14 00610000 00180000
+I (102) boot: End of partition table
+I (105) esp_image: segment 0: paddr=00010020 vaddr=420c0020 size=332c8h (209608) map
+I (156) esp_image: segment 1: paddr=000432f0 vaddr=40800000 size=0cd28h ( 52520) load
+I (169) esp_image: segment 2: paddr=00050020 vaddr=42000020 size=bdce8h (777448) map
+I (330) esp_image: segment 3: paddr=0010dd10 vaddr=4080cd28 size=0a3a4h ( 41892) load
+I (341) esp_image: segment 4: paddr=001180bc vaddr=40817100 size=04238h ( 16952) load
+I (346) esp_image: segment 5: paddr=0011c2fc vaddr=500009f0 size=00020h (    32) load
+I (352) boot: Loaded app from partition at offset 0x10000
+I (352) boot: Disabling RNG early entropy source...
+W (377) esp_psram: Due to hardware issue on ESP32-C5/C61 (Rev v1.0), PSRAM contents won't be encrypted (for flash encryption enabled case)
+W (379) esp_psram: Please avoid using PSRAM for security sensitive data e.g., TLS stack allocations (CONFIG_MBEDTLS_EXTERNAL_MEM_ALLOC)
+W (393) spi_flash: CPU frequency is set to 240MHz. esp_flash_write_encrypted() will automatically limit CPU frequency to 80MHz during execution.
+[info] platform_init: Running platform-specific init...
+
+========================================================
+launcher 1.46-8-g4ced1-dirty (Oct 29 2026 13:32:14)
+ built for: NM-CYD-C5. type: dev
+========================================================
+
+[info] rg_storage_init: Looking for SD Card using SDSPI...
+[info] rg_storage_init: Storage mounted at /sd.
+[info] rg_input_init: Input ready. state=00000000 00000000
+[info] json_root: Config file loaded: '/sd/retro-go/config/global.json'
+[info] rg_display_init: Initialization...
+[info] json_root: Config file loaded: '/sd/retro-go/config/launcher.json'
+[info] rg_alloc: SIZE=2560, CAPS=DMA|8BIT, PTR=0x408296d0
+[info] rg_alloc: SIZE=2560, CAPS=DMA|8BIT, PTR=0x4082a0d4
+[info] rg_alloc: SIZE=2560, CAPS=DMA|8BIT, PTR=0x4082aad8
+[info] rg_alloc: SIZE=2560, CAPS=DMA|8BIT, PTR=0x4082b4dc
+[info] rg_alloc: SIZE=2560, CAPS=DMA|8BIT, PTR=0x4082bee0
+E (727) spi: spi_bus_initialize(816): SPI bus already initialized.
+[info] lcd_set_backlight: backlight set to 80%
+[info] rg_display_init: Display ready.
+[info] rg_input_late_init: Initializing XPT2046 touch gamepad driver...
+[info] rg_alloc: SIZE=11520, CAPS=SPIRAM|8BIT, PTR=0x4210bb00
+[info] rg_gui_set_language_id: Language set to: English (0)
+[info] rg_gui_set_font: Font set to: VeraBold 11 (height=13, scaling=1.00)
+[info] rg_gui_set_theme: Using built-in theme!
+[info] driver_init: PWM speaker ready on GPIO26, 32000 Hz, carrier 150000 Hz
+[info] rg_audio_init: Audio ready. sink='Speaker', samplerate=32000, volume=50
+[info] rg_system_load_time: Time is now: Wed Nov 16 19:01:02 2472
+
+[info] rg_system_init: Available memory: 225/305 + 8134/8170
+[info] rg_system_init: Retro-Go ready.
+
+[info] rg_alloc: SIZE=153632, CAPS=SPIRAM|8BIT, PTR=0x4210e804
+[info] gui_add_tab: Tab 'nes' added at index 0
+[info] gui_add_tab: Tab 'snes' added at index 1
+[info] gui_add_tab: Tab 'gb' added at index 2
+[info] gui_add_tab: Tab 'gbc' added at index 3
+[info] application: Application 'Nintendo Gameboy Advance' (gbsp) not present, skipping
+[info] gui_add_tab: Tab 'gw' added at index 4
+[info] gui_add_tab: Tab 'sms' added at index 5
+[info] gui_add_tab: Tab 'gg' added at index 6
+[info] gui_add_tab: Tab 'md' added at index 7
+[info] gui_add_tab: Tab 'col' added at index 8
+[info] gui_add_tab: Tab 'pce' added at index 9
+[info] gui_add_tab: Tab 'lnx' added at index 10
+[info] gui_add_tab: Tab 'doom' added at index 11
+[info] gui_add_tab: Tab 'msx' added at index 12
+E (2017) sdmmc_cmd: sdmmc_read_sectors_dma: sdmmc_send_cmd returned 0x107, status 0x0
+E (2017) diskio_sdmmc: sdmmc_read_blocks failed (0x107)
+[error] rg_storage_read_file: Fopen failed (5): '/sd/retro-go/cache/crc32.bin'
+[info] gui_add_tab: Tab 'favorite' added at index 13
+[info] gui_add_tab: Tab 'recent' added at index 14
+[debug] rg_network_wifi_read_config: Looking for 'ssid0' (slot 0)
+[debug] rg_network_wifi_read_config: Looking for 'ssid' (slot 0)
+[info] webui_start: Web server started
+[info] update_viewport_scaling: 320x240@1.333 => 320x240@1.333 left:0 top:0 step_x:1.00 step_y:1.00
+[debug] STACK:5236, HEAP:145+7563 (100+7296), BUSY:0%, FPS:0 (S:0 R:0+0), BATT:0
+[debug] STACK:5236, HEAP:145+7563 (100+7296), BUSY:3%, FPS:107 (S:106 R:1+0), BATT:0
+[debug] STACK:5236, HEAP:145+7563 (100+7296), BUSY:3%, FPS:108 (S:107 R:1+0), BATT:0
+[debug] STACK:5236, HEAP:145+7563 (100+7296), BUSY:3%, FPS:107 (S:106 R:1+0), BATT:0
+[debug] STACK:5236, HEAP:145+7563 (100+7296), BUSY:3%, FPS:107 (S:106 R:1+0), BATT:0

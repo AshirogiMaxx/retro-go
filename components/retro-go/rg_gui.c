@@ -1487,6 +1487,36 @@ static rg_gui_event_t audio_update_cb(rg_gui_option_t *option, rg_gui_event_t ev
     return RG_DIALOG_VOID;
 }
 
+#if RG_AUDIO_USE_PWM
+static rg_gui_event_t test_sound_cb(rg_gui_option_t *option, rg_gui_event_t event)
+{
+    if (event == RG_DIALOG_ENTER)
+    {
+        bool muted = rg_audio_get_mute();
+        int rate = rg_audio_get_sample_rate();
+        rg_audio_frame_t frames[160];
+        unsigned phase = 0;
+        rg_audio_set_mute(false);
+        // A short 440 Hz triangle wave at the user's current volume.
+        for (int remaining = rate / 2; remaining > 0;)
+        {
+            int count = RG_MIN(remaining, RG_COUNT(frames));
+            for (int i = 0; i < count; ++i)
+            {
+                phase = (phase + 440) % rate;
+                int sample = (phase < rate / 2 ? phase : rate - phase) * 32768 / rate - 8192;
+                frames[i] = (rg_audio_frame_t){sample, sample};
+            }
+            rg_audio_submit(frames, count);
+            remaining -= count;
+        }
+        rg_task_delay(100); // Let the queued end of the tone finish playing.
+        rg_audio_set_mute(muted);
+    }
+    return RG_DIALOG_VOID;
+}
+#endif
+
 static rg_gui_event_t filter_update_cb(rg_gui_option_t *option, rg_gui_event_t event)
 {
     int max = RG_DISPLAY_FILTER_COUNT - 1;
@@ -2020,6 +2050,9 @@ void rg_gui_options_menu(void)
         #endif
         {0, _("Volume"),        "-", RG_DIALOG_FLAG_NORMAL, &volume_update_cb},
         {0, _("Audio out"),     "-", RG_DIALOG_FLAG_NORMAL, &audio_update_cb},
+        #if RG_AUDIO_USE_PWM
+        {0, _("Test sound"),    NULL, RG_DIALOG_FLAG_NORMAL, &test_sound_cb},
+        #endif
         RG_DIALOG_END,
     };
     const rg_gui_option_t misc_options[] = {
